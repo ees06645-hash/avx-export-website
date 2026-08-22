@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "AVX Export | Premium Indian Avocados from Yercaud",
   description:
     "AVX Export supplies premium Indian avocados from Yercaud, Salem, Tamil Nadu for wholesale, domestic supply and export buyers.",
+
   keywords: [
     "AVX Export",
     "Indian avocado exporter",
@@ -25,9 +26,18 @@ export const metadata: Metadata = {
     "avocado export from India",
     "premium Indian avocados",
   ],
+
   authors: [{ name: "AVX Export" }],
   creator: "AVX Export",
-  metadataBase: new URL("https://avx-export-website-fxsv.vercel.app"),
+
+  metadataBase: new URL(
+    "https://avx-export-website-fxsv.vercel.app"
+  ),
+
+  verification: {
+    google: "cMe011cZiIDYAcx45LBGHqLIexj1W3XCFXU1qQkjSuE",
+  },
+
   openGraph: {
     title: "AVX Export | Premium Indian Avocados",
     description:
@@ -36,6 +46,7 @@ export const metadata: Metadata = {
     siteName: "AVX Export",
     type: "website",
   },
+
   robots: {
     index: true,
     follow: true,
