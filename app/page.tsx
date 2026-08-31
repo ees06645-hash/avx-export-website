@@ -169,7 +169,7 @@ export default function Home() {
 
         <img
   src="/image/avocado-hero.jpg"
-  alt="Fresh Indian Avocados"
+  alt="Premium fresh Indian avocados from Yercaud"
   className="absolute inset-0 h-full w-full object-cover opacity-30"
 />
 
@@ -194,16 +194,16 @@ export default function Home() {
             </p>
 
             <h1 className="max-w-2xl text-6xl font-black leading-[0.95] tracking-tight text-white sm:text-7xl lg:text-8xl">
-              Premium
+              Premium Avocados
               <br />
-              <span className="text-lime-300">Avocados.</span>
+              <span className="text-lime-300">From Yercaud.</span>
             </h1>
 
             <p className="mt-7 max-w-xl text-lg leading-8 text-white/70 md:text-xl">
-              Fresh, carefully handled avocados from India,
-              prepared for wholesalers, suppliers and buyers
-              looking for dependable quality.
-            </p>
+  Premium fresh avocados from Yercaud, India, carefully handled
+  for wholesale supply, domestic buyers, suppliers and export
+  customers seeking consistent quality.
+</p>
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
 
@@ -258,7 +258,7 @@ export default function Home() {
                   </p>
 
                   <h2 className="mt-1 text-xl font-bold text-white">
-                    Fresh Avocados from India
+                    Fresh from the hills of South India
                   </h2>
 
                 </div>
@@ -321,7 +321,7 @@ export default function Home() {
       </h2>
 
       <p className="mt-5 text-lg leading-8 text-gray-600">
-        Fresh Indian avocados supplied according to buyer,
+        Fresh avocados from yercaud, supplied according to buyer,
         quantity, packaging and destination requirements.
       </p>
     </div>
@@ -335,7 +335,7 @@ export default function Home() {
         <div className="h-64 overflow-hidden">
           <img
             src="/image/avocado-1.jpg"
-            alt="Fresh Avocados"
+            alt="Fresh Indian avocados from Yercaud"
             className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
           />
         </div>
@@ -350,8 +350,8 @@ export default function Home() {
           </h3>
 
           <p className="mt-3 leading-7 text-gray-600">
-            Carefully selected fresh avocados prepared for
-            wholesale and bulk buyer requirements.
+            Fresh avocados carefully selected for wholesale,
+  bulk supply and business buyer requirements.
           </p>
         </div>
       </div>
@@ -363,7 +363,7 @@ export default function Home() {
         <div className="h-64 overflow-hidden">
           <img
             src="/image/avocado-2.jpg"
-            alt="Wholesale Avocados"
+            alt="Wholesale Indian avocado supply"
             className="h-full w-full object-cover object-center transition duration-700 group-hover:scale-105"
           />
         </div>
@@ -378,7 +378,7 @@ export default function Home() {
           </h3>
 
           <p className="mt-3 leading-7 text-gray-600">
-            Bulk avocado supply for wholesalers, suppliers,
+            Reliable bulk avocado supply for wholesalers, suppliers,
             retailers and business buyers.
           </p>
         </div>
@@ -391,7 +391,7 @@ export default function Home() {
         <div className="h-64 overflow-hidden">
           <img
             src="/image/avocado-3.jpg"
-            alt="Avocado Export Packing"
+            alt="Avocado packaging for wholesale and export buyers"
             className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
           />
         </div>
@@ -460,8 +460,8 @@ export default function Home() {
 
         <p className="mt-6 max-w-xl text-lg leading-8 text-gray-600">
           Every order is handled with attention to freshness,
-          product condition and buyer requirements from sourcing
-          through dispatch.
+  product condition and buyer requirements from sourcing
+  in Yercaud through preparation and dispatch.
         </p>
 
         <a
@@ -589,7 +589,7 @@ export default function Home() {
 
             <div>
               <h3 className="font-bold text-gray-950">
-                Export-Grade Packaging
+                Flexible Packaging Options
               </h3>
 
               <p className="mt-1 text-sm leading-6 text-gray-600">
@@ -662,8 +662,8 @@ export default function Home() {
       </h2>
 
       <p className="mt-5 text-lg leading-8 text-gray-600">
-        A simple, buyer-focused process designed to keep every
-        order clear and organised.
+        A simple, buyer-focused process covering enquiry,
+  requirement review, order preparation and dispatch.
       </p>
     </div>
 
@@ -778,8 +778,8 @@ export default function Home() {
         </h2>
 
         <p className="mt-5 max-w-2xl text-lg leading-8 text-gray-600">
-          Fresh produce, careful handling and professional
-          preparation — presented simply.
+          A closer look at our fresh avocados, careful handling,
+  packaging and preparation process.
         </p>
       </div>
 
@@ -799,7 +799,7 @@ export default function Home() {
       <div className="group relative overflow-hidden rounded-[2rem] md:col-span-2 lg:row-span-2">
         <img
           src="/image/avocado-4.jpg"
-          alt="Fresh avocados"
+          alt="Fresh avocados supplied by AVX Export"
           className="h-[500px] w-full object-cover transition duration-700 group-hover:scale-105 lg:h-full"
         />
 
@@ -820,7 +820,7 @@ export default function Home() {
       <div className="group relative overflow-hidden rounded-[2rem]">
         <img
           src="/image/avocado-5.jpg"
-          alt="Premium avocado"
+          alt="Premium fresh avocado"
           className="h-64 w-full object-cover transition duration-700 group-hover:scale-105"
         />
       </div>
@@ -829,7 +829,7 @@ export default function Home() {
       <div className="group relative overflow-hidden rounded-[2rem]">
         <img
           src="/image/avocado-6.jpg"
-          alt="Avocado produce"
+          alt="Fresh avocado produce"
           className="h-64 w-full object-cover object-center transition duration-700 group-hover:scale-105"
         />
       </div>
@@ -960,8 +960,8 @@ export default function Home() {
         </h2>
 
         <p className="mt-6 text-lg leading-8 text-gray-600">
-          Whether you are a wholesaler, supplier, retailer or
-          business buyer, share your requirement with us.
+          Whether you are a wholesaler, supplier, retailer or business
+  buyer, share your avocado supply requirements with us.
         </p>
 
         {/* Supply Options */}
@@ -1042,6 +1042,8 @@ export default function Home() {
     const phone = data.get("phone") || "";
     const requirement = data.get("requirement") || "";
     const quantity = data.get("quantity") || "";
+    const destination = data.get("destination") || "";
+    const messageText = data.get("message") || "";
 
     const message = `Hello AVX Export
 
@@ -1052,6 +1054,8 @@ Email: ${email}
 Phone / WhatsApp: ${phone}
 Requirement: ${requirement}
 Required Quantity: ${quantity}
+Destination: ${destination}
+Message: ${messageText}
 
 Thank you.`;
 
@@ -1176,6 +1180,7 @@ Thank you.`;
             </label>
 
             <textarea
+              name="message"
               rows={4}
               placeholder="Tell us your product, packaging or transport requirements..."
               className="w-full resize-none rounded-xl border border-white/10 bg-white/10 px-4 py-3.5 text-white outline-none placeholder:text-white/35 focus:border-lime-400"
@@ -1221,7 +1226,7 @@ Thank you.`;
 
         <p className="mt-6 max-w-xl text-lg leading-8 text-gray-600">
           Looking for fresh avocados, wholesale supply,
-          other-state transportation or export transportation?
+          other-state transportation or export shipment support?
           Get in touch with AVX Export.
         </p>
 
@@ -1426,14 +1431,14 @@ Thank you.`;
           </p>
 
           <h2 className="mt-4 text-4xl font-black tracking-tight md:text-5xl">
-            Freshness you can build your business around.
+            From Yercaud Hills to Your Market.
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-            AVX Export connects quality Indian avocado supply with
-            buyers looking for reliable sourcing, careful handling
-            and professional order support.
-          </p>
+  AVX Export supplies fresh premium avocados from Yercaud, Tamil Nadu,
+  to wholesale, domestic and export buyers. We focus on quality,
+  careful handling and reliable supply from the hills of South India.
+</p>
 
         </div>
       </section>

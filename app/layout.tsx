@@ -13,53 +13,88 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AVX Export | Premium Indian Avocados from Yercaud",
+  metadataBase: new URL("https://avx-export-website-fxsv.vercel.app"),
+
+  title: "AVX Export | Avocado Exporter in Yercaud, India",
+
   description:
-    "AVX Export supplies premium Indian avocados from Yercaud, Salem, Tamil Nadu for wholesale, domestic supply and export buyers.",
+    "AVX Export is a fresh avocado supplier and exporter from Yercaud, Salem, Tamil Nadu, India, supplying premium Indian avocados for wholesale, domestic and export buyers.",
 
   keywords: [
     "AVX Export",
-    "Indian avocado exporter",
-    "avocado exporter India",
-    "Yercaud avocados",
-    "fresh avocado wholesale India",
-    "avocado export from India",
-    "premium Indian avocados",
+    "avocado exporter in Yercaud",
+    "Yercaud avocado supplier",
+    "avocado exporter in India",
+    "avocado supplier in Salem",
+    "avocado exporter in Tamil Nadu",
+    "fresh avocado supplier India",
+    "fresh Indian avocados",
+    "Yercaud fresh avocado",
+    "avocado wholesale supplier",
   ],
 
   authors: [{ name: "AVX Export" }],
   creator: "AVX Export",
+  publisher: "AVX Export",
 
-  metadataBase: new URL(
-    "https://avx-export-website-fxsv.vercel.app"
-  ),
+  alternates: {
+    canonical: "/",
+  },
 
   verification: {
     google: "cMe011cZiIDYAcx45LBGHqLIexj1W3XCFXU1qQkjSuE",
   },
 
   openGraph: {
-    title: "AVX Export | Premium Indian Avocados",
+    title: "AVX Export | Avocado Exporter in Yercaud, India",
     description:
-      "Premium Indian avocados from Yercaud for wholesale, supply and export buyers.",
-    url: "https://avx-export-website-fxsv.vercel.app",
+      "Premium fresh avocados from Yercaud, Salem, Tamil Nadu, India for wholesale supply, domestic buyers and export customers.",
+    url: "https://avx-export-website-fxsv.vercel.app/",
     siteName: "AVX Export",
     type: "website",
+    locale: "en_IN",
+    images: [
+      {
+        url: "/image/avocado-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Premium fresh Indian avocados from Yercaud",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "AVX Export | Avocado Exporter in Yercaud, India",
+    description:
+      "Premium fresh avocados from Yercaud, India for wholesale supply, domestic buyers and export customers.",
+    images: ["/image/avocado-hero.jpg"],
   },
 
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: LayoutProps<"/">) {
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+      </body>
     </html>
   );
 }
