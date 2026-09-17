@@ -15,23 +15,22 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://avx-export-website-fxsv.vercel.app"),
 
-  title: "AVX Export | Avocado Exporter in Yercaud, India",
+  title: "AVX Export | Avocado Transport & Supply from Yercaud, India",
 
   description:
-    "AVX Export is a fresh avocado supplier and exporter from Yercaud, Salem, Tamil Nadu, India, supplying premium Indian avocados for wholesale, domestic and export buyers.",
+  "AVX Export provides reliable avocado transportation and bulk supply from Yercaud, Salem, Tamil Nadu to destinations across South India.",
 
   keywords: [
-    "AVX Export",
-    "avocado exporter in Yercaud",
-    "Yercaud avocado supplier",
-    "avocado exporter in India",
-    "avocado supplier in Salem",
-    "avocado exporter in Tamil Nadu",
-    "fresh avocado supplier India",
-    "fresh Indian avocados",
-    "Yercaud fresh avocado",
-    "avocado wholesale supplier",
-  ],
+  "AVX Export",
+  "avocado transport",
+  "avocado transportation",
+  "avocado transport from Yercaud",
+  "Yercaud avocado transport",
+  "avocado supply Yercaud",
+  "avocado transportation Tamil Nadu",
+  "fresh produce transportation",
+  "avocado bulk transportation",
+],
 
   authors: [{ name: "AVX Export" }],
   creator: "AVX Export",
@@ -46,9 +45,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "AVX Export | Avocado Exporter in Yercaud, India",
+    title: "AVX Export | Avocado Transport & Supply from Yercaud, India",
     description:
-      "Premium fresh avocados from Yercaud, Salem, Tamil Nadu, India for wholesale supply, domestic buyers and export customers.",
+        "Reliable avocado transportation and bulk supply from Yercaud, Salem, Tamil Nadu to destinations across South India.",
     url: "https://avx-export-website-fxsv.vercel.app/",
     siteName: "AVX Export",
     type: "website",
@@ -65,9 +64,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "AVX Export | Avocado Exporter in Yercaud, India",
+    title: "AVX Export | Avocado Transport in Yercaud, India",
     description:
-      "Premium fresh avocados from Yercaud, India for wholesale supply, domestic buyers and export customers.",
+      "Reliable avocado transportation and bulk supply from Yercaud, Salem, Tamil Nadu to destinations across South India.",
     images: ["/image/avocado-hero.jpg"],
   },
 

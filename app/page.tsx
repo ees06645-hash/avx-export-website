@@ -194,15 +194,14 @@ export default function Home() {
             </p>
 
             <h1 className="max-w-2xl text-6xl font-black leading-[0.95] tracking-tight text-white sm:text-7xl lg:text-8xl">
-              Premium Avocados
+              Reliable Avocado
               <br />
-              <span className="text-lime-300">From Yercaud.</span>
+              <span className="text-lime-300">Transport from Yercaud.</span>
             </h1>
 
             <p className="mt-7 max-w-xl text-lg leading-8 text-white/70 md:text-xl">
   Premium fresh avocados from Yercaud, India, carefully handled
-  for wholesale supply, domestic buyers, suppliers and export
-  customers seeking consistent quality.
+  for wholesale supply, domestic buyers, supplier customers seeking consistent quality.
 </p>
 
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -258,7 +257,7 @@ export default function Home() {
                   </p>
 
                   <h2 className="mt-1 text-xl font-bold text-white">
-                    Fresh from the hills of South India
+                    Reliable transportation from the hills of South India to your destination.
                   </h2>
 
                 </div>
@@ -1435,9 +1434,10 @@ Thank you.`;
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-  AVX Export supplies fresh premium avocados from Yercaud, Tamil Nadu,
-  to wholesale, domestic and export buyers. We focus on quality,
-  careful handling and reliable supply from the hills of South India.
+  AVX Export connects fresh avocados from Yercaud, Tamil Nadu,
+  with reliable transportation and supply for wholesale and bulk
+  requirements. We focus on careful handling, dependable movement
+  and timely delivery from the hills of South India.
 </p>
 
         </div>
